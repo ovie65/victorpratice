@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Using Function</title>
+    <link rel="stylesheet" href="victor.css">
+    
+</head>
+<body>
+  <div class="nav">  
+     <h1 style="color: white;">Assignment Using Function <span class="jk">Victor</span></h1> 
+  </div>
+  <div class="song">
+    <h5>JAVA</h5>
+ </div>
+  <div class="all">
+    <div class="some">
+        <b> 1.Assignment: define 10 JavaScript reserved keywords and what they do </b>
+        Ans: <br>
+       <span class="st"> 
+        <ol>
+       <li> var: used to declare a variable within a function or globally.</li>
+<li>let: used to declare a block-scoped variable within a block</li>
+<li>const: used to declare a block-scoped variable whose value cannot be reassigned</li>
+<li>if: used to test a condition and execute a block of code if the condition is true</li>
+<li>else: used to execute a block of code if the condition of an if statement is false
+<li>while: used to create a loop that executes as long as a specified condition is true</li>
+<li>function: used to define a named or anonymous function</li>
+<li>return: used to return a value from a function</li>
+<li>break: used to exit a loop or switch statement</li>
+<li>continue: used to skip an iteration in a loop and move to the next one</li>
+Short history on JavaScript JavaScript is a programming language that was created by Brendan Eich in just 10 days in May 1995.
+It was initially designed to be used in web browsers as a client-side scripting language, allowing developers to add interactivity to web pages. The name "JavaScript" was chosen by Eich's employer at the time, Netscape Communications, to capitalize on the popularity of the then-dominant programming language, Java. JavaScript quickly gained popularity among web developers due to its ability to create dynamic and interactive web pages. In 1997, the language was standardized by the European Computer Manufacturers Association (ECMA) as ECMAScript. This standardization helped to increase the credibility of JavaScript as a programming language. In the early 2000s, the rise of web applications and the development of AJAX (Asynchronous JavaScript and XML) further cemented JavaScript's place as a key technology for web development. Today, JavaScript is one of the most widely-used programming languages in the world, with an estimated 95% of all websites using it in some form. It is also used outside of web development, in areas such as server-side programming and game development. JavaScript continues to evolve and adapt to meet the needs of modern web development. The latest version of the language, ECMAScript 2022, includes new features and improvements to make it easier for developers to write complex web applications.
+
+         </span>
+    </div>
+    <div class="greet">
+      <h2>WELCOME TO MY PAGE</h2> 
+      <h4>Click the button below to receive your greeting</h4>  
+      <button onclick="greet()">Greetings</button>
+    </div>
+  </div>    
+  <div class="all">
+    <div class="food">
+      <h2>WELCOME TO FOOD MATAZ RESTURANT</h2>
+      <h4>Click  to order for food</h4>
+      <button onclick="seun()">Order</button>
+    </div>
+    <div class="history">
+      <b>2. write a bref history of JavaScript that covers all version up to ECMA6</b>
+      <p>JavaScript is a popular programming language used for creating interactive websites, web applications, and mobile applications. It was created by Brendan Eich at Netscape in 1995 and was originally called Mocha, then later changed to LiveScript before finally being named JavaScript. JavaScript quickly gained popularity due to its ability to add dynamic and interactive features to websites, making it a powerful tool for web developers. In 1997, Netscape submitted JavaScript to the European Computer Manufacturers Association (ECMA) for standardization, <br>
+          resulting in the first version of the ECMA Script standard in 1997, which was also known as ES1. ES2, the second version of the ECMA Script standard, was released in 1998 and included new features such as try/catch error handling and regular expressions. ES3 was released in 1999 and added more features such as the ability to work with regular expressions, better string manipulation, and improved error handling. In 2000, ES4 was proposed, but it was never released due to disagreements among stakeholders. Instead, ES3.1 was released in 2008, which included new features such as getters and setters, array comprehensions, and destructuring assignments. ES5 was released in 2009 and added several new features, including strict mode, which provided a way to opt into a more secure and efficient subset of the language. It also introduced new array and object manipulation methods, such as map(), filter(), reduce(), and Object.keys(). ES6, also known as ECMAScript 2015, was released in 2015 and included significant improvements to the language. It introduced new features such as let and const for variable declarations, arrow functions, classes, modules, and template literals. It also included improvements to the syntax and semantics of the language, making it easier and more intuitive to use. <br>
+
+      </p>    
+    </div>
+  </div>
+  <div class="all">
+    <div class="calculator">
+      <h1>SIMPLE CALCULATOR</h1>
+      <input type="number" placeholder="input a number"> :
+      <input type="number" placeholder="input a number"> =
+      <input type="number" placeholder="Answer"> <br> <br> <br>
+      <button class="ty" onclick="ade()" >+</button> <button class="ty" onclick="subu()">-</button> <button class="ty" onclick="divi()">/</button> <button class="ty" onclick="muti()">*</button> <br> <br> <button class="ty">=</button>
+    </div>
+    <div class="copious">
+      <b>4. Using copious examples, explain the similarities and <br> differences 
+        between the var, let, and const keywords in JavaScript.
+      </b>
+      Var <br>
+        It can be redeclare and can be reassign. <br>
+        Example : <br>
+        Var Greetings = 'Welcome to my page';<br>
+        Var Greetings = 'Compliment of the season'; <br><br>
+        Let <br>
+        It cannot be redeclare but can be reassign <br>
+        Example : <br>
+        Let Greetings = 'Welcome to my page';<br>
+        Greetings = Compliment of the season; <br> <br>
+        Const <br>
+        It cannot be redeclare, it is a constant <br>
+        Example : <br>
+        Const VoterAge= 18;
+      
+    </div>
+  </div>
+  <div class="all">
+    <div class="table">
+      <b>Differences and similarities between (==,===,!=, !==) </b>
+    <table border="2" cellpadding="4">
+        <tr>
+            <th colspan="2">Differences between </th>
+            <!-- <td>dff</td> -->
+        </tr>
+        <tr>
+            <th>==</th>
+            <td>it means equal to</td>
+        </tr>
+        <tr>
+            <th>===</th>
+            <td>it means that the value mush be equal in value and datatype</td>
+        </tr>
+        <tr>
+            <th>!=</th>
+            <td>it means it is not equal to</td>
+        </tr>
+        <tr>
+            <th>!==</th>
+            <td>it means it not equal in vlaue and datatype</td>
+        </tr>
+    </table><br>
+    <table border="2" cellpadding="8">
+        <tr>
+            <th colspan="2">Similarities between</th>
+        </tr>
+        <tr>
+            <th>==</th>
+            <td rowspan="4">They are use to compare between <b>Operads</b></td>
+        </tr>
+        <tr>
+            <th>===</th>
+            <!-- <td> compare between <b>Operads</b></td> -->
+        </tr>
+        <tr>
+            <th>!=</th>
+            <!-- <td> compare between <b>Operads</b></td> -->
+        </tr>
+        <tr>
+            <th>!==</th>
+            <!-- <td> compare between <b>Operads</b></td> -->
+        </tr>
+    </table>
+    </div>
+    <div class="nigeria">
+      <h1>PICK A NUMBER TO SEE IF YOU ARE SMART! GUESS THE NIGERIA AGE</h1>
+      <h4>(Switch) </h4>
+      <button onclick="ovie()">Start Game</button>
+    </div>
+  </div>
+ <script>
+    function greet(){
+      let a= new Date(). getHours();
+        if(a>00 && a<11){
+       alert('Good Morning')
+      }
+     else if(a>11 && a<16){
+     alert('Good afternoon')
+      }
+    else{
+     alert('Good Evening')
+    };
+    };
+    function seun(){
+      let resturant={
+    name: 'chicken Republic',
+    categories: ['aficandish','chinesedish','calarbadish','indiadish','drink','chinesedish',],
+    drink: ['chivita','coke','pulpy','pepsi','colos','nultri-milk',],
+    soup:['egusi','ogbono','peppersoup','efo','okoro',],
+    swallow:['amala','semovita','apku','fufu','eba',],
+    owner: 'Mr Adebayo',
+    location: 'UI side',
+};
+alert(`i want ${resturant.categories[0]} ${resturant.soup[3]} and ${resturant.swallow[3]} i also want ${resturant.drink[4]}, thanks`);
+    };
+    function ovie(){
+      let age=prompt('what is Nigerian age ?');
+      let d=+age;
+      switch(d){
+    case 50: alert('not close');
+    break;
+    case 59: alert('close');
+    break;
+    case 60: alert(' almost correct');
+    break;
+    case 63: alert('correct');
+    break;
+    case 64: alert('close');
+    break;
+    case 65: alert('close');
+    break;
+    default: alert('wrong');
+};
+    }
+ </script>
+</body>
+</html>
